@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/result-summary-component-xVRJXFk37h)
+- Live Site URL: [Result Component Webpage](https://airme1.github.io/result-summary-component/)
 
 ## My process
 - I started with the HTML structure and proceeded to the CSS styling, starting with styling for mobile devices 
