@@ -61,9 +61,12 @@
 
       .container{
         max-width: 375px;
-        outline: 1px solid whitesmoke;
+        border: 1px solid whitesmoke;
+        display: flex;
+        flex-direction: column;
       }
 
+      /* RESULT CARD */
       .result{
         background-image: linear-gradient(var(--Light-royal-blue), var(--Light-slate-blue));
         border-radius: 0 0 30px 30px;
@@ -100,6 +103,8 @@
         font-size: 3.5rem;
         font-weight: 700;
       }
+
+      /* SUMMARY CARD */
       .summary{
         background: #fff;
         padding: 1.5rem;
@@ -159,6 +164,40 @@
 
       .cat2{
         color: var(--Green-teal)
+      }
+
+      @media (min-width: 550px) {
+        .container{
+          flex-direction: row;
+          max-width: 650px;
+          min-width: 455px;
+          /* outline: 1px solid red; */
+          border-radius: 30px ;
+        }
+
+        .result{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+        }
+
+        .score{
+          width: 13rem;
+          height: 13rem;
+        }
+
+        .total{
+          font-size: 5rem;
+        }
+
+        .summary{
+          width: 100%;
+        }
+
+        .result{
+          border-radius: 30px;
+          width: 100%;
+        }
       }
 
       .attribution {
